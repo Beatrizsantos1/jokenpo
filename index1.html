@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    ">
+    <link rel="stylesheet" href="./style.css" />
+    <title>jokenpô</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Jokenpô</h1>
+      <div class="botoes">
+        <button class="botao1" id="pedra">
+          <abbr>Pedra</abbr> &#x1F44A;&#x1F3FE;
+        </button>
+        <button class="botao2" id="papel">
+          <abbr>Papel</abbr> &#x1F590;&#x1F3FE;
+        </button>
+        <button class="botao3" id="tessoura">
+          <abbr>Tessoura </abbr> &#x270C;&#x1F3FE;
+        </button>
+      </div>
+      <p id="alexaEscolha">Alexa Escolheu: <span id="escolha-Alexa"></span></p>
+      <p id="placar"></p>
+      <input class="buttonResult" type="button" value="Resultado Final" />
+      <div id="pontuar">
+        <p>Pontuação da Alexa: <span id="placar-alexa">0</span></p>
+        <p>Sua pontuação: <span id="placar-humano">0</span></p>
+
+        <p>Total de Empates: <span id="placar-empate">0</span></p>
+      </div>
+    </div>
+    <button id="replay">Jogar Novamente!</button>
+  </body>
+  <script src="./script.js"></script>
+</html>
